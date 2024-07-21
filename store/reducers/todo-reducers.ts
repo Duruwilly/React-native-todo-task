@@ -3,12 +3,10 @@ import { createItemType, todoType } from "../../common.type";
 
 interface AppState {
   todos: todoType;
-  todosId: string[];
 }
 
 const initialState: AppState = {
   todos: [],
-  todosId: [],
 };
 
 const todoReducer = createSlice({

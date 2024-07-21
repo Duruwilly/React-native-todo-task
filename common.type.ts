@@ -1,6 +1,3 @@
-import { StackNavigationProp } from '@react-navigation/stack';
-import { RouteProp } from '@react-navigation/native';
-
 export type RootStackParamList = {
   'todo-list': undefined;
   'create-todo': { todoId?: string } | undefined;
